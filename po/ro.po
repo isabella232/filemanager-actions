@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/filemanager-actions/"
 "issues\n"
 "POT-Creation-Date: 2020-04-13 09:41+0000\n"
-"PO-Revision-Date: 2020-07-08 16:10+0300\n"
+"PO-Revision-Date: 2020-07-12 14:29+0300\n"
 "Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
 "Language: ro\n"
@@ -233,10 +233,14 @@ msgid ""
 "include the asterisk wildcard “*”. You must set one option for each pattern "
 "you need"
 msgstr ""
+"Un model pentru a fi potrivit cu tipurile mime a fișierului(lor) / "
+"dosarului(lor) selectat(e). Poate include metacaracterul asterisk „*”. "
+"Trebuie să stabiliți o opțiune pentru fiecare model de care aveți nevoie"
 
 #: ../src/core/fma-icontext-factory.c:179
 msgid "Whether the profile applies to files (deprecated option, see mimetype)"
 msgstr ""
+"Dacă profilul se aplică la fișiere (opțiune depășită, consultați tipul mime)"
 
 #. i18n: “true” and “false” values are taken literally, and should not be translated
 #: ../src/core/fma-icontext-factory.c:181
@@ -253,11 +257,24 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to “true”."
 msgstr ""
+"Stabilit la „true” dacă selecția poate avea fișiere, la „false” în caz "
+"contrar.\n"
+"Această configurare este legată de configurarea „isdir”. Combinațiile valide "
+"sunt: \n"
+"isfile=„true” și isdir=„false”: selecția poate să țină doar fișiere\n"
+"isfile=„false” și isdir=„true”: selecția poate să țină doar dosare\n"
+"isfile=„true” și isdir=„true”: selecția poate să țină amândouă fișiere și "
+"dosare\n"
+"isfile=„false” și isdir=„false”: aceasta este o combinație nevalidă "
+"(configurația nu va apărea niciodată).\n"
+"Acest lucru se aplică evident doar când există o selecție.\n"
+"Implicit la „true”."
 
 #: ../src/core/fma-icontext-factory.c:210
 msgid ""
 "Whether the profile applies to folders (deprecated option, see mimetype)"
 msgstr ""
+"Dacă profilul se aplică la dosare (opțiune depășită, consultați tipul mime)"
 
 #. i18n: “true” and “false” values are taken literally, and should not be translated
 #: ../src/core/fma-icontext-factory.c:212
@@ -274,12 +291,26 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to “false”."
 msgstr ""
+"Configurat la „true” dacă selecția poate avea dosare, la „false” în caz "
+"contrar.\n"
+"Această configurare este legată de configurarea „isfile”. Combinațiile "
+"valide sunt: \n"
+"isfile=„true” și isdir=„false”: selecția poate să țină doar fișiere\n"
+"isfile=„false” și isdir=„true”: selecția poate să țină doar dosare\n"
+"isfile=„true” și isdir=„true”: selecția poate să țină amândouă fișiere și "
+"dosare\n"
+"isfile=„false” și isdir=„false”: aceasta este o combinație nevalidă "
+"(configurația nu va apărea niciodată).\n"
+"Acest lucru se aplică evident doar când există o selecție.\n"
+"Implicit la „false”."
 
 #: ../src/core/fma-icontext-factory.c:244
 msgid ""
 "Whether the selection may be multiple (deprecated option, see selection "
 "count)"
 msgstr ""
+"Dacă selecția poate fi multiplă (opțiune depășită, consultați numărătoare de "
+"selecție)"
 
 #. i18n: “true” and “false” values are taken literally, and should not be translated
 #: ../src/core/fma-icontext-factory.c:246
@@ -289,11 +320,17 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to “false”."
 msgstr ""
+"Dacă aveți nevoie de mai mult decât un fișier sau dosar să fie selectate, "
+"stabiliți această cheie la „true”. Dacă doriți doar un fișier sau dosar, "
+"stabiliți-o la „false”.\n"
+"Acest lucru se aplică evident doar când există o selecție.\n"
+"Implicit la „false”."
 
 #: ../src/core/fma-icontext-factory.c:270
 msgid ""
 "List of schemes to be matched against those of selected file(s)/folder(s)"
 msgstr ""
+"Listă de scheme de potrivit cu cele a(le) fișierului(lor) / dosarului(lor)"
 
 #. too long string for iso c: 510 (max=509)
 #. i18n: schemes (sftp, ssh, ftp, file, etc.) are standard keywords which define
@@ -317,12 +354,33 @@ msgid ""
 "special “x-nautilus-desktop” scheme.\n"
 "Defaults to “file”."
 msgstr ""
+"Definește lista de scheme valide care trebuie să fie potrivite cu elementele "
+"selectate. Schema este protocolul utilizat pentru a accesa fișierele. "
+"Cuvântul cheie de utilizat este acela utilizat în URI de către gestionarul "
+"de fișiere.\n"
+"Exemple de URI valid includ:\n"
+"• file:///tmp/foo.txt\n"
+"• sftp:///root@test.example.net/tmp/foo.txt\n"
+"Cele mai comune scheme sunt:\n"
+"• „file”: fișiere locale\n"
+"• „sftp”: fișiere accesate via SSH\n"
+"• „ftp”: fișiere accesate via FTP\n"
+"• „smb”: fișiere accesate via Samba (partajare Windows)\n"
+"• „dav”: fișiere accesate via WebDAV.\n"
+"Toate schemele utilizate de gestionarul de fișiere favorit pot fi utilizate "
+"aici.\n"
+"Acest lucru se aplică evident doar când există o selecție, sau când se "
+"țintește schema specială „x-nautilus-desktop”.\n"
+"Implicit la „file”."
 
 #: ../src/core/fma-icontext-factory.c:303
 msgid ""
 "A valid GIO scheme where the selected file(s)/folder(s) should be located. "
 "You must set one option for each scheme you need"
 msgstr ""
+"O schemă GIO validă unde fișierul(le) / dosarul(le) selectat(e) ar trebui să "
+"fie localizate. Trebuie să stabiliți o opțiune pentru fiecare schemă de care "
+"aveți nevoie"
 
 #. i18n: "<STRING>" is just an abbreviation for "a string", so is tranlatable
 #: ../src/core/fma-icontext-factory.c:306
@@ -336,11 +394,11 @@ msgstr ""
 #: ../src/utils/fma-set-conf.c:63 ../src/utils/fma-set-conf.c:66
 #: ../src/utils/fma-set-conf.c:68
 msgid "<STRING>"
-msgstr ""
+msgstr "<STRING>"
 
 #: ../src/core/fma-icontext-factory.c:312
 msgid "List of folders"
-msgstr ""
+msgstr "Listă de dosare"
 
 #: ../src/core/fma-icontext-factory.c:313
 msgid ""
@@ -348,12 +406,17 @@ msgid ""
 " All folders “under” the specified path are considered valid.\n"
 "Defaults to “/”."
 msgstr ""
+"Definește lista de căi valide care trebuie potrivite cu dosarul curent.\n"
+" Toate dosarele „sub” calea specificată sunt considerate valide.\n"
+"Implicit la „/”."
 
 #: ../src/core/fma-icontext-factory.c:329
 msgid ""
 "The path of a (parent) directory for which the item will be displayed. You "
 "must set one option for each folder you need"
 msgstr ""
+"Calea unui director (părinte pentru care elementul va fi afișat. Trebuie să "
+"stabiliți o opțiune pentru fiecare dosar de care aveți nevoie"
 
 #. i18n: "<PATH>" is just an abbreviation for "a folder path", so is tranlatable
 #. i18n: "<PATH>" is the path to a binary, so may be tranlatable
@@ -363,11 +426,11 @@ msgstr ""
 #: ../src/core/fma-object-profile-factory.c:117
 #: ../src/core/fma-object-profile-factory.c:205
 msgid "<PATH>"
-msgstr ""
+msgstr "<PATH>"
 
 #: ../src/core/fma-icontext-factory.c:338
 msgid "Operator of the selection count relation"
-msgstr ""
+msgstr "Operatorul relației de număr de selecție"
 
 #: ../src/core/fma-icontext-factory.c:339
 msgid ""
@@ -377,48 +440,56 @@ msgid ""
 "Examples of valid strings are: “=0”, “> 1”, “< 10”.\n"
 "Defaults to “>0”."
 msgstr ""
+"Dacă acest profil poate fi selectat depinde de numărul selecției.\n"
+"Acesta este un șir de forma „{”<„|”=„|”>„} număr”.\n"
+"Exemple de șiruri valide sunt: „=0”, „> 1”, „< 10”.\n"
+"Implicit la „>0”."
 
 #: ../src/core/fma-icontext-factory.c:356
 msgid "Selection count relation [>0]"
-msgstr ""
+msgstr "Relația de număr de selecție [>0]"
 
 #: ../src/core/fma-icontext-factory.c:364
 msgid "Only show in environment"
-msgstr ""
+msgstr "Arată doar în mediu"
 
 #: ../src/core/fma-icontext-factory.c:365
 msgid "Defaults to all."
-msgstr ""
+msgstr "Implicit la toate."
 
 #: ../src/core/fma-icontext-factory.c:379
 msgid ""
 "The name of an only desktop environment where the item must be displayed. "
 "You must set one option for each environment you want"
 msgstr ""
+"Numele doar unui mediu de desktop unde elementul trebuie să fie afișat. "
+"Trebuie să stabiliți o opțiune pentru fiecare mediu pe care-l doriți"
 
 #. i18n: "<DESKTOP>" is just a placeholder for "a desktop name", so is tranlatable
 #: ../src/core/fma-icontext-factory.c:382
 #: ../src/core/fma-icontext-factory.c:406
 msgid "<DESKTOP>"
-msgstr ""
+msgstr "<DESKTOP>"
 
 #: ../src/core/fma-icontext-factory.c:388
 msgid "Not show in environment"
-msgstr ""
+msgstr "Nu arăta în mediu"
 
 #: ../src/core/fma-icontext-factory.c:389
 msgid "Defaults to none."
-msgstr ""
+msgstr "Implicit la nimic."
 
 #: ../src/core/fma-icontext-factory.c:403
 msgid ""
 "The name of a desktop environment where the item must not be displayed. You "
 "must set one option for each environment you want"
 msgstr ""
+"Numele unui mediu de desktop unde elementul nu trebuie să fie afișat. "
+"Trebuie să stabiliți o opțiune pentru fiecare mediu pe care îl doriți"
 
 #: ../src/core/fma-icontext-factory.c:412
 msgid "Try exec"
-msgstr ""
+msgstr "Încearcă exec"
 
 #. i18n: TryExec is a keyword of the specification, it is not translatable
 #: ../src/core/fma-icontext-factory.c:414
@@ -429,14 +500,19 @@ msgid ""
 "runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Observați că, atunci când este specificat, doar prezența și starea de "
+"executabilitate ale fișierului specificat sunt verificate.\n"
+"Parametrii pot să apară în valoarea „TryExec”, și vor fi substituite la "
+"executare.\n"
+"Implicit la cu succes."
 
 #: ../src/core/fma-icontext-factory.c:431
 msgid "the path to a file whose executability is to be checked"
-msgstr ""
+msgstr "calea la un fișier al cărui executabilitate trebuie să fie verificată"
 
 #: ../src/core/fma-icontext-factory.c:439
 msgid "Show if registered"
-msgstr ""
+msgstr "Arată dacă este înregistrat"
 
 #. i18n: ShowIfRegistered is a keyword of the specification, it is not translatable
 #: ../src/core/fma-icontext-factory.c:441
@@ -448,20 +524,26 @@ msgid ""
 "at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Numele bine cunoscut al unui serviciu DBus.\n"
+"Elementul va fi candidat dacă serviciul numit este înregistrat pe sesiunea "
+"DBus la executare.\n"
+"Parametrii pot să apară în valoarea „ShowIfRegistered”, și vor fi "
+"substituiți la executare.\n"
+"Implicit la cu succes."
 
 #: ../src/core/fma-icontext-factory.c:458
 msgid "The name of a service which must be registered on session DBus"
-msgstr ""
+msgstr "Numele unui serviciu care trebuie înregistrat pe sesiunea DBus"
 
 #: ../src/core/fma-icontext-factory.c:459
 #: ../src/core/fma-icontext-factory.c:512
 #: ../src/core/fma-icontext-factory.c:545
 msgid "<NAME>"
-msgstr ""
+msgstr "<NAME>"
 
 #: ../src/core/fma-icontext-factory.c:465
 msgid "Show if True"
-msgstr ""
+msgstr "Arată dacă True"
 
 #. i18n: ShowIfTrue is a keyword of the specification, it is not translatable
 #: ../src/core/fma-icontext-factory.c:467
@@ -472,15 +554,20 @@ msgid ""
 "runtime.\n"
 "Defaults to successful."
 msgstr ""
+"O comandă care, când este executată, ar trebui să rezulte un șir la stdout.\n"
+"Elementul va fi candidat dacă șirul rezultat este egal cu „true”.\n"
+"Parametrii pot să apară în valoarea „ShowIfTrue”, și vor fi substituiți la "
+"executare.\n"
+"Implicit la cu succes."
 
 #. i18n: “true” is to be taken as a literal, must not be translated
 #: ../src/core/fma-icontext-factory.c:485
 msgid "The path to a command which will display the “true” string"
-msgstr ""
+msgstr "Calea către o comandă care va afișa șirul „true”"
 
 #: ../src/core/fma-icontext-factory.c:492
 msgid "Show if running"
-msgstr ""
+msgstr "Arată dacă rulează"
 
 #. i18n: ShowIfRunning is a keyword of the specification, it is not translatable
 #: ../src/core/fma-icontext-factory.c:494
@@ -492,10 +579,16 @@ msgid ""
 "runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Numele unui proces.\n"
+"Elementul va fi candidat dacă numele procesului este găsit în memorie la "
+"executare.\n"
+"Parametrii pot să apară în valoarea „ShowIfRunning”, și vor fi substituiți "
+"la executare.\n"
+"Implicit la cu succes."
 
 #: ../src/core/fma-icontext-factory.c:511
 msgid "The name of a binary which must be running"
-msgstr ""
+msgstr "Numele unui binar care trebuie să ruleze"
 
 #: ../src/core/fma-icontext-factory.c:518
 msgid "Capabilities"
@@ -517,48 +610,66 @@ msgid ""
 "• “Local”: selected items are local.\n"
 "Defaults to empty list."
 msgstr ""
+"O listă de capabilități pe care trebuie să o satisfacă fiecare element al "
+"selecției pentru ca elementul să fie un candidat.\n"
+"Capabilitățile pot fi negate.\n"
+"Capabilitățile trebuie să fie alese între următoarele capabilități "
+"predefinite:\n"
+"• „Owner”: utilizatorul curent este deținătorul elementelor selectate\n"
+"• „Readable”: elementele selectate se pot citi de către utilizator (probabil "
+"mai util când este negat)\n"
+"• „Writable”: elementele selectate sunt inscriptibile de către utilizator\n"
+"• „Executable”: elementele selectate sunt executabile de către utilizator\n"
+"• „Local”: elementele selectate sunt locale.\n"
+"Implicit la listă goală."
 
 #: ../src/core/fma-icontext-factory.c:543
 msgid ""
 "The name of a capability the selection must meet. May be “Owner”, "
 "“Readable”, “Writable”, “Executable” or “Local”"
 msgstr ""
+"Numele unei capabilități pe care trebuie să o îndeplinească selecția. Poate "
+"fi „Owner”, „Readable”, „Writable”, „Executable” sau „Local”"
 
 #: ../src/core/fma-iimporter.c:239 ../src/core/fma-importer.c:293
 msgid ""
 "Item was renumbered because the caller did not provide any check function."
 msgstr ""
+"Elementul a fost renumerotat pentru că apelantul nu a furnizat o funcție de "
+"verificare."
 
 #: ../src/core/fma-iimporter.c:254
 msgid ""
 "Item was renumbered because the caller did not provide any ask user function."
 msgstr ""
+"Elementul a fost renumerotat pentru că apelantul nu a furnizat o funcție de "
+"întrebare a utilizatorului."
 
 #: ../src/core/fma-iimporter.c:273 ../src/core/fma-importer.c:326
 msgid "Item was renumbered due to user request."
-msgstr ""
+msgstr "Elementul a fost renumerotat din cauza cererii utilizatorului."
 
 #: ../src/core/fma-iimporter.c:279 ../src/core/fma-importer.c:335
 msgid "Existing item was overriden due to user request."
-msgstr ""
+msgstr "Elementul existent a fost suprascris din cauza cererii utilizatorului."
 
 #: ../src/core/fma-iimporter.c:286 ../src/core/fma-importer.c:344
 #, c-format
 msgid "Item %s already exists."
-msgstr ""
+msgstr "Elementul %s există deja."
 
 #: ../src/core/fma-iimporter.c:288 ../src/core/fma-importer.c:350
 msgid "Import was canceled due to user request."
-msgstr ""
+msgstr "Importarea a fost anulată din cauza cererii utilizatorului."
 
 #. i18n: the action has been renumbered during import operation
 #: ../src/core/fma-iimporter.c:311 ../src/core/fma-importer.c:417
 msgid "(renumbered)"
-msgstr ""
+msgstr "(renumerotat)"
 
 #: ../src/core/fma-importer.c:58
 msgid "Do _not import the item"
-msgstr ""
+msgstr "_Nu importa elementul"
 
 #: ../src/core/fma-importer.c:59
 msgid ""
@@ -566,10 +677,13 @@ msgid ""
 "The selected file will be marked as “NOT OK” in the Summary page.\n"
 "The existing item will not be modified."
 msgstr ""
+"Acesta a obișnuit să fie comportamentul istoric.\n"
+"Fișierul selectat va fi marcat ca „NU ESTE OK” în pagina rezumatului.\n"
+"Elementul existent nu va fi modificat."
 
 #: ../src/core/fma-importer.c:66
 msgid "Import the item, _allocating it a new identifier"
-msgstr ""
+msgstr "Importă elementul, _alocându-i un identificator nou"
 
 #: ../src/core/fma-importer.c:67
 msgid ""
@@ -577,10 +691,13 @@ msgid ""
 "the renumbering.\n"
 "The existing item will not be modified."
 msgstr ""
+"Fișierul selectat va fi importat cu o etichetă ușor modificată indicând "
+"renumerotarea.\n"
+"Elementul existent nu va fi modificat."
 
 #: ../src/core/fma-importer.c:74
 msgid "_Override the existing item"
-msgstr ""
+msgstr "_Suprascrie elementul existent"
 
 #: ../src/core/fma-importer.c:75
 msgid ""
@@ -588,22 +705,26 @@ msgid ""
 "which has the same identifier.\n"
 "Be warned: this mode may be dangerous. You will not be prompted another time."
 msgstr ""
+"Elementul găsit în fișierul selectat va suprascrie silențios elementul "
+"curent care are același identificator.\n"
+"Fiți avertizat: acest mod poate fi periculos. Nu vi se va solicita altă dată."
 
 #: ../src/core/fma-importer.c:88
 msgid "You will be asked each time an imported ID already exists."
-msgstr ""
+msgstr "Veți fi întrebat de fiecare dată când un ID importat există deja."
 
 #. i18n: “%s” stands for the file URI
 #: ../src/core/fma-importer.c:101
 #, c-format
 msgid "%s is not loadable (empty or too big or not a regular file)"
 msgstr ""
+"%s nu se poate încărca (gol sau prea mare sau nu este un fișier regular)"
 
 #. l10n: “ImporterAskDialog” is the dialog name: do not translate
 #: ../src/core/fma-importer-ask.c:270
 #, c-format
 msgid "Unable to load “ImporterAskDialog” from %s"
-msgstr ""
+msgstr "Nu se poate încărca „ImporterAskDialog” de la %s"
 
 #: ../src/core/fma-importer-ask.c:399
 #, c-format
@@ -611,6 +732,8 @@ msgid ""
 "The action “%s” imported from “%s” has the same identifier than the already "
 "existing “%s”."
 msgstr ""
+"Acțiunea „%s” importată de la „%s” are același identificator ca acțiunea "
+"deja existentă „%s”."
 
 #: ../src/core/fma-importer-ask.c:405
 #, c-format
@@ -618,34 +741,40 @@ msgid ""
 "The menu “%s” imported from “%s” has the same identifier than the already "
 "existing “%s”."
 msgstr ""
+"Meniul „%s” importat de la „%s” are același identificator ca meniul deja "
+"existent „%s”."
 
 #: ../src/core/fma-importer-ask.ui.h:1
 msgid "Already existing item"
-msgstr ""
+msgstr "Element deja existent"
 
 #: ../src/core/fma-importer-ask.ui.h:2
 msgid "Re_member my choice in future import operations"
-msgstr ""
+msgstr "_Reține alegerea mea în operațiile de import viitoare"
 
 #: ../src/core/fma-importer-ask.ui.h:3
 msgid ""
 "\n"
 "What should I do with this ?"
 msgstr ""
+"\n"
+"Ce ar trebui să fac cu asta ?"
 
 #: ../src/core/fma-importer-ask.ui.h:5
 msgid " A duplicate is detected "
-msgstr ""
+msgstr " Un duplicat este detectat "
 
 #: ../src/core/fma-io-provider.c:69
 msgid ""
 "Please, be kind enough to fill out a bug report on https://gitlab.gnome.org/"
 "GNOME/filemanager-actions/issues."
 msgstr ""
+"Fiți destul de amabil să completați un raport de defecțiune pe https://"
+"gitlab.gnome.org/GNOME/filemanager-actions/issues."
 
 #: ../src/core/fma-io-provider.c:1369
 msgid "Unavailable I/O provider."
-msgstr ""
+msgstr "Furnizor I/O nedisponibil."
 
 #: ../src/core/fma-io-provider.c:1373
 msgid "I/O provider implementation lacks of required API."
