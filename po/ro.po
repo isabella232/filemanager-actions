@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/filemanager-actions/"
 "issues\n"
 "POT-Creation-Date: 2020-04-13 09:41+0000\n"
-"PO-Revision-Date: 2020-07-12 14:29+0300\n"
+"PO-Revision-Date: 2020-07-13 14:56+0300\n"
 "Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
 "Language: ro\n"
@@ -778,31 +778,31 @@ msgstr "Furnizor I/O nedisponibil."
 
 #: ../src/core/fma-io-provider.c:1373
 msgid "I/O provider implementation lacks of required API."
-msgstr ""
+msgstr "Implementării furnizorului I/O îi lipsește API-ul necesar."
 
 #: ../src/core/fma-io-provider.c:1377
 msgid "I/O provider is not willing to write."
-msgstr ""
+msgstr "Furnizorul I/O nu este dispus să scrie."
 
 #: ../src/core/fma-io-provider.c:1381
 msgid "I/O provider announces itself as unable to write."
-msgstr ""
+msgstr "Furnizorul I/O se anunță că nu poate scrie."
 
 #: ../src/core/fma-io-provider.c:1385
 msgid "I/O provider has been locked down by an administrator."
-msgstr ""
+msgstr "Furnizorul I/O a fost blocat de un administrator."
 
 #: ../src/core/fma-io-provider.c:1389
 msgid "I/O provider has been locked down by the user."
-msgstr ""
+msgstr "Furnizorul I/O a fost blocat de utilizator."
 
 #: ../src/core/fma-io-provider.c:1393
 msgid "Item is read-only."
-msgstr ""
+msgstr "Elementul este protejat la sciere."
 
 #: ../src/core/fma-io-provider.c:1397
 msgid "No writable I/O provider found."
-msgstr ""
+msgstr "Nu s-a găsit niciun furnizor I/O inscriptibil."
 
 #: ../src/core/fma-io-provider.c:1402
 #, c-format
@@ -810,10 +810,12 @@ msgid ""
 "Item is not writable for an unknown reason (%d).\n"
 "%s"
 msgstr ""
+"Elementul nu este inscriptibil dintr-un motiv necunoscut (%d).\n"
+"%s"
 
 #: ../src/core/fma-io-provider.c:1425
 msgid "OK."
-msgstr ""
+msgstr "OK."
 
 #: ../src/core/fma-io-provider.c:1429
 #, c-format
@@ -821,22 +823,24 @@ msgid ""
 "Program flow error.\n"
 "%s"
 msgstr ""
+"Eroare de flux de program.\n"
+"%s"
 
 #: ../src/core/fma-io-provider.c:1433
 msgid "The I/O provider is not willing to do that."
-msgstr ""
+msgstr "Furnizorul I/O nu este dispus să facă acest lucru."
 
 #: ../src/core/fma-io-provider.c:1437
 msgid "Write error in I/O provider."
-msgstr ""
+msgstr "Eroare de scriere în furnizorul I/O."
 
 #: ../src/core/fma-io-provider.c:1441
 msgid "Unable to delete GConf schemas."
-msgstr ""
+msgstr "Nu se pot șterge schemele GConf."
 
 #: ../src/core/fma-io-provider.c:1445
 msgid "Unable to delete configuration."
-msgstr ""
+msgstr "Nu se poate șterge configurația."
 
 #: ../src/core/fma-io-provider.c:1449
 #, c-format
