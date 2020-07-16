@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: nautilus-actions master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/filemanager-actions/"
 "issues\n"
-"POT-Creation-Date: 2020-04-13 09:41+0000\n"
-"PO-Revision-Date: 2020-07-13 14:56+0300\n"
+"POT-Creation-Date: 2020-07-13 11:57+0000\n"
+"PO-Revision-Date: 2020-07-16 16:53+0300\n"
 "Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
 "Language: ro\n"
@@ -848,19 +848,21 @@ msgid ""
 "Unknown return code (%d).\n"
 "%s"
 msgstr ""
+"Cod de întoarcere necunoscut (%d).\n"
+"%s"
 
 #. i18n: default label for a new action
 #: ../src/core/fma-object-action.c:59
 msgid "New file-manager action"
-msgstr ""
+msgstr "Acțiune de file-manager nouă"
 
 #: ../src/core/fma-object-action.c:492
 msgid "Profile automatically created from pre-v2 action"
-msgstr ""
+msgstr "Profilul creat automat de la acțiunea pre-v2"
 
 #: ../src/core/fma-object-action-factory.c:80
 msgid "Targets the selection context menu"
-msgstr ""
+msgstr "Țintește meniul contextual de selecție"
 
 #: ../src/core/fma-object-action-factory.c:81
 msgid ""
@@ -870,14 +872,20 @@ msgid ""
 "context menus provided that they contain at least one action.\n"
 "Defaults to TRUE."
 msgstr ""
+"Dacă acțiunea țintește meniurile contextuale ale gestionarului de fișier de "
+"selecție.\n"
+"Aceasta a obișnuit să fie comportamentul istoric.\n"
+"Observați că meniurile sunt întotdeauna candidați potențiali la afișarea în "
+"meniurile contextuale de selecție atât timp cât conțin cel puțin o acțiune.\n"
+"Implicit la TRUE."
 
 #: ../src/core/fma-object-action-factory.c:99
 msgid "Targets the selection context menu [true]"
-msgstr ""
+msgstr "Țintește meniul contextual de selecție [true]"
 
 #: ../src/core/fma-object-action-factory.c:106
 msgid "Targets the location context menu"
-msgstr ""
+msgstr "Țintește meniul contextual de locație"
 
 #: ../src/core/fma-object-action-factory.c:107
 msgid ""
@@ -887,14 +895,21 @@ msgid ""
 "context menus provided that they contain at least one action.\n"
 "Defaults to FALSE"
 msgstr ""
+"Dacă acțiunea țintește meniurile contextuale ale contextului managerului de "
+"fișiere când nu există nicio selecție, prin urmare aplicând locația "
+"curentă.\n"
+"Observați că meniurile sunt întotdeauna candidați potențiali la afișarea în "
+"meniurile contextuale de selecție atât timp când acestea conțin cel puțin o "
+"acțiune.\n"
+"Implicit la FALSE"
 
 #: ../src/core/fma-object-action-factory.c:125
 msgid "Targets the location context menu [false]"
-msgstr ""
+msgstr "Țintește meniul contextual de locație [false]"
 
 #: ../src/core/fma-object-action-factory.c:132
 msgid "Targets the toolbar"
-msgstr ""
+msgstr "Țintește bara de unelte"
 
 #: ../src/core/fma-object-action-factory.c:133
 msgid ""
@@ -903,14 +918,19 @@ msgid ""
 "Note that menus are never displayed in the toolbar.\n"
 "Defaults to FALSE."
 msgstr ""
+"Dacă acțiunea este candidat pentru a fi afișată în bara de unelte a "
+"gestionarului de fișiere.\n"
+"Acest lucru se aplică doar la locația curentă.\n"
+"Observați că meniurile nu sunt niciodată afișate în bara de unelte.\n"
+"Implicit la FALSE."
 
 #: ../src/core/fma-object-action-factory.c:150
 msgid "Targets the toolbar [false]"
-msgstr ""
+msgstr "Țintește bara de unelte [false]"
 
 #: ../src/core/fma-object-action-factory.c:157
 msgid "Label of the toolbar item"
-msgstr ""
+msgstr "Eticheta elementului barei de unelte"
 
 #: ../src/core/fma-object-action-factory.c:158
 msgid ""
@@ -919,16 +939,21 @@ msgid ""
 "preferences.\n"
 "Defaults to label of the context menu when not set or empty."
 msgstr ""
+"Eticheta afișată lângă iconița barei de unelte de gestionar de fișiere.\n"
+"Observați că afișajul actual poate să depindă de preferințele mediului "
+"desktop proprii.\n"
+"Implicit la eticheta meniului contextual când nu este stabilită sau când "
+"este goală."
 
 #. i18n: copied items have a label as “Copy of original label”
 #: ../src/core/fma-object-id.c:329
 #, c-format
 msgid "Copy of %s"
-msgstr ""
+msgstr "Copie a lui %s"
 
 #: ../src/core/fma-object-item-factory.c:65
 msgid "Type of the item"
-msgstr ""
+msgstr "Tipul elementului"
 
 #: ../src/core/fma-object-item-factory.c:66
 msgid ""
@@ -937,6 +962,11 @@ msgid ""
 "• “Menu”.\n"
 "The value is case sensitive and must not be localized."
 msgstr ""
+"Definește dacă elementul este o acțiune sau un meniu. Valorile posibile "
+"sunt:\n"
+"• „Acțiune”,\n"
+"• „Meniu”.\n"
+"Valoarea este sensibilă la majuscule și nu trebuie să fie localizată."
 
 #: ../src/core/fma-object-item-factory.c:94
 msgid "Label of the context menu item (mandatory)"
