@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/filemanager-actions/"
 "issues\n"
 "POT-Creation-Date: 2020-07-13 11:57+0000\n"
-"PO-Revision-Date: 2020-07-16 16:53+0300\n"
+"PO-Revision-Date: 2020-07-22 16:03+0300\n"
 "Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
 "Language: ro\n"
@@ -970,7 +970,7 @@ msgstr ""
 
 #: ../src/core/fma-object-item-factory.c:94
 msgid "Label of the context menu item (mandatory)"
-msgstr ""
+msgstr "Eticheta elementului de meniu contextual (obligatorie)"
 
 #: ../src/core/fma-object-item-factory.c:95
 msgid ""
@@ -978,14 +978,19 @@ msgid ""
 "when the selection matches the appearance condition settings.\n"
 "It is also used as a default for the toolbar label of an action."
 msgstr ""
+"Eticheta elementului de meniu care va apărea în meniul contextual al "
+"gestionarului de fișiere când selecția se potrivește configurărilor de "
+"condiție ale aspectului.\n"
+"Este de asemenea utilizată ca implicit pentru eticheta barei de unelte a "
+"unei acțiuni."
 
 #: ../src/core/fma-object-item-factory.c:99
 msgid "Empty label"
-msgstr ""
+msgstr "Etichetă goală"
 
 #: ../src/core/fma-object-item-factory.c:118
 msgid "Tooltip of the context menu item"
-msgstr ""
+msgstr "Indiciu al elementului de meniu contextual"
 
 #: ../src/core/fma-object-item-factory.c:119
 msgid ""
@@ -993,10 +998,13 @@ msgid ""
 "when the user points to the file manager context menu item with his/her "
 "mouse."
 msgstr ""
+"Indiciul elementului de meniu care va apărea în bara de stare a "
+"gestionarului de fișiere când utilizatorul arată către elementul de meniu "
+"contextual al gestionarului de fișiere cu mausul acestuia/acesteia."
 
 #: ../src/core/fma-object-item-factory.c:142
 msgid "Icon of the context menu item"
-msgstr ""
+msgstr "Iconița elementului de meniu contextual"
 
 #: ../src/core/fma-object-item-factory.c:143
 msgid ""
@@ -1006,24 +1014,32 @@ msgid ""
 "May be the localized name of a themed icon, or a full path to any "
 "appropriate image."
 msgstr ""
+"Iconița elementului de meniu care va apărea lângă eticheta în meniul "
+"contextual al gestionarului de fișiere când selecția se potrivește cu "
+"configurările de condiții ale aspectului.\n"
+"Poate fi numele localizat a unei iconițe cu temă, sau o cale completă la "
+"orice imagine potrivită."
 
 #: ../src/core/fma-object-item-factory.c:161
 msgid "<PATH|NAME>"
-msgstr ""
+msgstr "<CALE|NUME>"
 
 #: ../src/core/fma-object-item-factory.c:191
 msgid "Description relative to the item"
-msgstr ""
+msgstr "Descrierea relativă la element"
 
 #: ../src/core/fma-object-item-factory.c:192
 msgid ""
 "Some text which explains the goal of the menu or the action.\n"
 "May be used, e.g. when displaying available items on a web site."
 msgstr ""
+"Ceva text care explică ținta meniului sau acțiunii.\n"
+"Poate fi utilizat, de ex. când se afișează elementele disponibile pe o "
+"pagină web."
 
 #: ../src/core/fma-object-item-factory.c:214
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "Scurtătură sugerată"
 
 #: ../src/core/fma-object-item-factory.c:215
 msgid ""
@@ -1034,10 +1050,16 @@ msgid ""
 "The format may look like “<Control>a” or “<Shift><Alt>F1”.\n"
 "Defaults to empty."
 msgstr ""
+"O scurtătură sugerată pentru acțiune sau meniu.\n"
+"Observați că acest lucru poate fi doar o sugestie întrucât scurtătura poate "
+"fi deja rezervată pentru alt uz. Implementarea nu ar trebui să suprascrie o "
+"scurtătură deja existentă pentru a o defini pe aceasta.\n"
+"Formatul poate să arate ca „<Control>a” sau „<Shift><Alt>F1”.\n"
+"Implicit la gol."
 
 #: ../src/core/fma-object-item-factory.c:268
 msgid "List of subitem ids"
-msgstr ""
+msgstr "Listă de id-uri de subelement"
 
 #: ../src/core/fma-object-item-factory.c:269
 msgid ""
@@ -1046,10 +1068,15 @@ msgid ""
 "If this list doesn’t exist or is empty for an action or a menu, subitems are "
 "attached in the order of the read operations."
 msgstr ""
+"Listă ordonată a ID-urilor ale subelementelor. Acestea po fi acțiuni sau "
+"meniuri dacă elementul este un meniu, sau profiluri dacă elementul este o "
+"acțiune.\n"
+"Dacă această listă nu există sau este goală pentru o acțiune sau un meniu, "
+"subelementele sunt atașate în ordinea operațiilor de citire."
 
 #: ../src/core/fma-object-item-factory.c:293
 msgid "Whether the action or the menu is enabled"
-msgstr ""
+msgstr "Dacă acțiunea sau meniul sunt activate"
 
 #: ../src/core/fma-object-item-factory.c:294
 msgid ""
@@ -1057,54 +1084,63 @@ msgid ""
 "manager context menu.\n"
 "Defaults to TRUE."
 msgstr ""
+"Dacă acțiunea sau meniul sunt dezactivate, acestea nu vor apărea niciodată "
+"în meniul contextual al gestionarului de fișiere.\n"
+"Implicit la TRUE."
 
 #: ../src/core/fma-object-item-factory.c:310
 msgid "Whether the action or the menu is enabled [enabled]"
-msgstr ""
+msgstr "Dacă acțiunea sau meniul sunt activate [activat]"
 
 #: ../src/core/fma-object-item-factory.c:409
 msgid "Version of the format"
-msgstr ""
+msgstr "Versiunea formatului"
 
 #: ../src/core/fma-object-item-factory.c:410
 msgid ""
 "The version of the configuration format that will be used to manage backward "
 "compatibility."
 msgstr ""
+"Versiunea formatului de configurare care va fi utilizată pentru a gestiona "
+"compatibilitatea inversă."
 
 #. i18n: default label for a new menu
 #: ../src/core/fma-object-menu.c:57
 msgid "New file-manager menu"
-msgstr ""
+msgstr "Meniu de gestionar de fișiere nou"
 
 #. i18n: label for the default profile
 #: ../src/core/fma-object-profile.c:769
 msgid "Default profile"
-msgstr ""
+msgstr "Profil implicit"
 
 #: ../src/core/fma-object-profile-factory.c:49
 msgid "Name of the profile"
-msgstr ""
+msgstr "Numele profilului"
 
 #: ../src/core/fma-object-profile-factory.c:50
 msgid ""
 "May be used as a description for the function of the profile.\n"
 "If not set, it defaults to an auto-generated name."
 msgstr ""
+"Poate fi utilizat ca o descriere pentru funcția profilului.\n"
+"Dacă nu este stabilit, acesta este implicit la un nume auto-generat."
 
 #: ../src/core/fma-object-profile-factory.c:100
 msgid "Path of the command"
-msgstr ""
+msgstr "Calea comenzii"
 
 #: ../src/core/fma-object-profile-factory.c:101
 msgid ""
 "The path of the command to be executed when the user select the menu item in "
 "the file manager context menu or in the toolbar."
 msgstr ""
+"Calea comenzii de executat când utilizatorul selectează elementul de meniu "
+"în meniul contextual al gestionarului de fișiere sau în bara de unelte."
 
 #: ../src/core/fma-object-profile-factory.c:127
 msgid "Parameters of the command"
-msgstr ""
+msgstr "Parametrii comenzii"
 
 #. too long string for iso c: (max=509)
 #: ../src/core/fma-object-profile-factory.c:129
@@ -1162,7 +1198,7 @@ msgstr ""
 
 #: ../src/core/fma-object-profile-factory.c:188
 msgid "Working directory"
-msgstr ""
+msgstr "Director de lucru"
 
 #: ../src/core/fma-object-profile-factory.c:189
 #, c-format
@@ -1170,10 +1206,12 @@ msgid ""
 "The working directory the command will be started in.\n"
 "Defaults to “%d”."
 msgstr ""
+"Directorul de lucru în care va fi pornită comanda.\n"
+"Implicit la „%d”."
 
 #: ../src/core/fma-object-profile-factory.c:211
 msgid "Execution mode"
-msgstr ""
+msgstr "Mod de executare"
 
 #. i18n: “Normal”, “Terminal”, “Embedded” and “DisplayOutput” are non-translatable keywords
 #: ../src/core/fma-object-profile-factory.c:213
@@ -1214,7 +1252,7 @@ msgstr ""
 
 #: ../src/core/fma-object-profile-factory.c:290
 msgid "Execute as user"
-msgstr ""
+msgstr "Execută ca utilizator"
 
 #: ../src/core/fma-object-profile-factory.c:291
 msgid ""
@@ -1227,27 +1265,27 @@ msgstr ""
 #: ../src/core/fma-selected-info.c:809
 #, c-format
 msgid "Error when querying informations for %s URI: %s"
-msgstr ""
+msgstr "Eroare la interogarea informațiilor pentru URI-ul %s: %s"
 
 #: ../src/core/fma-tokens.c:251
 msgid "file:///path/to/file1.mid"
-msgstr ""
+msgstr "file:///path/to/file1.mid"
 
 #: ../src/core/fma-tokens.c:252
 msgid "file:///path/to/file2.jpeg"
-msgstr ""
+msgstr "file:///path/to/file2.jpeg"
 
 #: ../src/core/fma-tokens.c:253
 msgid "audio/x-midi"
-msgstr ""
+msgstr "audio/x-midi"
 
 #: ../src/core/fma-tokens.c:254
 msgid "image/jpeg"
-msgstr ""
+msgstr "image/jpeg"
 
 #: ../src/core/fma-tokens.c:256
 msgid "test.example.net"
-msgstr ""
+msgstr "test.example.net"
 
 #: ../src/core/fma-tokens.c:257
 msgid "user"
@@ -1255,11 +1293,11 @@ msgstr "utilizator"
 
 #: ../src/core/fma-tokens.c:434
 msgid "Output of the run command"
-msgstr ""
+msgstr "Rezultatul comenzii run"
 
 #: ../src/core/fma-tokens.c:442
 msgid "Run command:"
-msgstr ""
+msgstr "Comandă run:"
 
 #: ../src/core/fma-tokens.c:443
 msgid "Standard output:"
@@ -1271,11 +1309,11 @@ msgstr "Eroare standard:"
 
 #: ../src/io-desktop/fma-desktop-provider.c:259
 msgid "FileManager-Actions Desktop I/O Provider"
-msgstr ""
+msgstr "Furnizor I/O desktop FileManager-Actions"
 
 #: ../src/io-desktop/fma-desktop-formats.c:56
 msgid "Export as a ._desktop file"
-msgstr ""
+msgstr "Exportă ca un fișier ._desktop"
 
 #: ../src/io-desktop/fma-desktop-formats.c:57
 msgid ""
@@ -1292,21 +1330,21 @@ msgstr ""
 
 #: ../src/io-desktop/fma-desktop-reader.c:64
 msgid "The Desktop I/O Provider is not able to handle the URI"
-msgstr ""
+msgstr "Furnizorul I/O desktop nu poate să manipuleze URI-ul"
 
 #. i18n: “type” is the nature of the item: Action or Menu
 #: ../src/io-desktop/fma-desktop-reader.c:292
 #, c-format
 msgid "unknown type: %s"
-msgstr ""
+msgstr "tip necunoscut: %s"
 
 #: ../src/io-gconf/fma-gconf-provider.c:247
 msgid "FileManager-Actions GConf I/O Provider"
-msgstr ""
+msgstr "Furnizor I/O GConf FileManager-Actions"
 
 #: ../src/io-xml/fma-xml-reader.c:147
 msgid "Item ID not found."
-msgstr ""
+msgstr "ID-ul elementului nu a fost găsit."
 
 #: ../src/io-xml/fma-xml-reader.c:148
 #, c-format
@@ -1340,7 +1378,7 @@ msgstr ""
 
 #: ../src/io-xml/fma-xml-formats.c:55
 msgid "Export as a _full GConf schema file"
-msgstr ""
+msgstr "Exportă ca un fișier schema GConf _complet"
 
 #: ../src/io-xml/fma-xml-formats.c:56
 msgid ""
@@ -1353,7 +1391,7 @@ msgstr ""
 
 #: ../src/io-xml/fma-xml-formats.c:67
 msgid "Export as a _light GConf schema (v2) file"
-msgstr ""
+msgstr "Exportă ca un fișier schema (v2) GConf _ușor"
 
 #: ../src/io-xml/fma-xml-formats.c:68
 msgid ""
@@ -1369,7 +1407,7 @@ msgstr ""
 
 #: ../src/io-xml/fma-xml-formats.c:82
 msgid "Export as a GConf _dump file"
-msgstr ""
+msgstr "Exportă ca un fișier _dump GConf"
 
 #: ../src/io-xml/fma-xml-formats.c:83
 msgid ""
@@ -1387,15 +1425,15 @@ msgstr ""
 
 #: ../src/ui/base-assistant.c:145
 msgid "Quit on Escape"
-msgstr ""
+msgstr "Ieșire la Escape"
 
 #: ../src/ui/base-assistant.c:146
 msgid "Should the assistant “Quit” when the user hits Escape ?"
-msgstr ""
+msgstr "Ar trebui asistentul să „Iasă” când utilizatorul apasă pe Escape?"
 
 #: ../src/ui/base-assistant.c:153
 msgid "Warn on Escape"
-msgstr ""
+msgstr "Avertizează la Escape"
 
 #: ../src/ui/base-assistant.c:154
 msgid ""
