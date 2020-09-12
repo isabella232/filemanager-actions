@@ -408,7 +408,7 @@ msgid ""
 "Defaults to “/”."
 msgstr ""
 "Defineix la llista de rutes vàlides per comparar amb la carpeta actual.\n"
-" Totes les carpetes «sota» la ruta especificada es consideren vàlides.\n"
+" Totes les carpetes «sota» el camí especificat es consideren vàlides.\n"
 "Per defecte a «/»."
 
 #: ../src/core/fma-icontext-factory.c:329
@@ -416,7 +416,7 @@ msgid ""
 "The path of a (parent) directory for which the item will be displayed. You "
 "must set one option for each folder you need"
 msgstr ""
-"La ruta d'un directori (pare) pel qual es mostra l'opció. S'ha d'establir "
+"El camí d'un directori (pare) pel qual es mostra l'opció. S'ha d'establir "
 "una opció per a cada carpeta que necessiti"
 
 #. i18n: "<PATH>" is just an abbreviation for "a folder path", so is tranlatable
@@ -509,7 +509,7 @@ msgstr ""
 
 #: ../src/core/fma-icontext-factory.c:431
 msgid "the path to a file whose executability is to be checked"
-msgstr "la ruta d'accés a un fitxer executable s'ha de comprovar"
+msgstr "el camí d'accés a un fitxer executable s'ha de comprovar"
 
 #: ../src/core/fma-icontext-factory.c:439
 msgid "Show if registered"
@@ -565,7 +565,7 @@ msgstr ""
 #. i18n: “true” is to be taken as a literal, must not be translated
 #: ../src/core/fma-icontext-factory.c:485
 msgid "The path to a command which will display the “true” string"
-msgstr "La ruta a una ordre que mostra la cadena «veritat»"
+msgstr "El camí a una ordre que mostra la cadena «veritat»"
 
 #: ../src/core/fma-icontext-factory.c:492
 msgid "Show if running"
@@ -1018,7 +1018,7 @@ msgstr ""
 "La icona de l'element de menú que apareixerà al costat de l'etiqueta al menú "
 "del context de l'administrador de fitxers quan la selecció coincideixi amb "
 "la configuració de condicions de l'aparença.\n"
-"Pot ser el nom localitzat d'una icona temàtica, o una ruta completa a "
+"Pot ser el nom localitzat d'una icona temàtica, o un camí complet a "
 "qualsevol imatge corresponent."
 
 #: ../src/core/fma-object-item-factory.c:161
@@ -1128,14 +1128,14 @@ msgstr ""
 
 #: ../src/core/fma-object-profile-factory.c:100
 msgid "Path of the command"
-msgstr "La ruta de l'ordre"
+msgstr "El camí de l'ordre"
 
 #: ../src/core/fma-object-profile-factory.c:101
 msgid ""
 "The path of the command to be executed when the user select the menu item in "
 "the file manager context menu or in the toolbar."
 msgstr ""
-"La ruta de l'ordre a executar quan l'usuari seleccioni l'element del menú "
+"El camí de l'ordre a executar quan l'usuari seleccioni l'element del menú "
 "al file-manager o en la barra d'eines del menú del context."
 
 #: ../src/core/fma-object-profile-factory.c:127
@@ -1906,7 +1906,7 @@ msgstr "Icones _temàtiques"
 
 #: ../src/ui/fma-icon-chooser.ui.h:3
 msgid "Icons by _path"
-msgstr "_Icones per ruta"
+msgstr "_Icones per camí"
 
 #: ../src/ui/fma-ienvironment-tab.c:73
 msgid "(strictly lesser than)"
@@ -2406,7 +2406,7 @@ msgstr "<b> Perfil </b>"
 
 #: ../src/ui/fma-main-window.ui.h:29
 msgid "_Path :"
-msgstr "_Ruta:"
+msgstr "_Camí :"
 
 #: ../src/ui/fma-main-window.ui.h:30
 msgid "P_arameters :"
@@ -2422,9 +2422,9 @@ msgid ""
 "If this is not an absolute path, then the PATH environment variable at "
 "execution time will be considered."
 msgstr ""
-"La ruta de l'ordre.\n"
-"Si això no és una ruta absoluta, llavors es considera la variable d'entorn "
-"RUTA en temps d'execució."
+"El camí de l'ordre.\n"
+"Si això no és un camí absolut, llavors es considera la variable d'entorn "
+"PATH en temps d'execució."
 
 #: ../src/ui/fma-main-window.ui.h:34
 msgid "_Browse..."
@@ -3419,7 +3419,7 @@ msgstr "<b>Entorn d'escriptori</b>"
 #: ../src/ui/fma-preferences.ui.h:22
 msgid "This tab lets you specify parameters needed for some execution modes."
 msgstr ""
-"Aquesta pestanya permet especificar els paràmetres necessaris per alguns "
+"Aquesta pestanya permet especificar els paràmetres necessaris per a alguns "
 "modes d'execució."
 
 #: ../src/ui/fma-preferences.ui.h:23
