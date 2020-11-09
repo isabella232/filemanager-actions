@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: filemanager-actions master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/filemanager-actions/issue"
 "s\n"
-"POT-Creation-Date: 2020-04-13 09:41+0000\n"
-"PO-Revision-Date: 2020-04-24 12:12+0300\n"
+"POT-Creation-Date: 2020-07-12 11:30+0000\n"
+"PO-Revision-Date: 2020-11-09 10:16+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 20.07.70\n"
+"X-Generator: Lokalize 20.11.70\n"
 
 #: ../src/core/fma-exporter.c:52 ../src/core/fma-importer.c:87
 msgid "_Ask me"
@@ -56,11 +56,10 @@ msgid ""
 "License as published by the Free Software Foundation; either version 2 of "
 "the License, or (at your option) any later version."
 msgstr ""
-"Засіб налаштовування FileManager-Actions ― вільне програмне забезпечення. Ви"
-" можете його розповсюджувати чи "
-"змінювати на умовах ліцензії GNU General Public License, що опублікована "
-"Free Software Foundation; або версії 2 ліцензії, або (на ваш розсуд) будь-"
-"якій більш пізній версії."
+"Засіб налаштовування FileManager-Actions ― вільне програмне забезпечення. Ви "
+"можете його розповсюджувати чи змінювати на умовах ліцензії GNU General "
+"Public License, що опублікована Free Software Foundation; або версії 2 "
+"ліцензії, або (на ваш розсуд) будь-якій більш пізній версії."
 
 #: ../src/core/fma-about.c:77
 msgid ""
@@ -69,11 +68,10 @@ msgid ""
 "of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
 "Public License for more details."
 msgstr ""
-"Засіб налаштовування FileManager-Actions розповсюджується зі сподіванням, що"
-" програма буде корисною, але БЕЗ БУДЬ-"
-"ЯКИХ ГАРАНТІЙ; не гарантується навіть ПРИДАТНІСТЬ чи ВІДПОВІДНІСТЬ ПЕВНІЙ "
-"МЕТІ. Для отримання додаткової інформації ознайомтесь з GNU General Public "
-"License."
+"Засіб налаштовування FileManager-Actions розповсюджується зі сподіванням, що "
+"програма буде корисною, але БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ; не гарантується навіть "
+"ПРИДАТНІСТЬ чи ВІДПОВІДНІСТЬ ПЕВНІЙ МЕТІ. Для отримання додаткової "
+"інформації ознайомтесь з GNU General Public License."
 
 #: ../src/core/fma-about.c:81
 msgid ""
@@ -82,16 +80,16 @@ msgid ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
 "USA."
 msgstr ""
-"Ви мали отримати копію GNU General Public License разом з «Засобом"
-" налаштовування FileManager-Actions»; "
-"якщо це не так, напишіть у Free Software Foundation, Inc., 51 Franklin "
-"Street, Fifth Floor, Boston, MA 02110-1301, USA."
+"Ви мали отримати копію GNU General Public License разом з «Засобом "
+"налаштовування FileManager-Actions»; якщо це не так, напишіть у Free "
+"Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
+"02110-1301, USA."
 
 #: ../src/core/fma-about.c:101
 msgid "A graphical interface to create and edit your file-manager actions."
 msgstr ""
-"Графічний інструмент для створення і редагування пунктів дій програм для"
-" керування файлами."
+"Графічний інструмент для створення і редагування пунктів дій програм для "
+"керування файлами."
 
 #: ../src/core/fma-about.c:110
 msgid "The GNOME Translation Project <gnome-i18n@gnome.org>"
@@ -140,8 +138,8 @@ msgstr "Застарілі системи"
 #: ../src/core/fma-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
 msgstr ""
-"Список взірців, за яким слід встановлювати відповідність позначених файлів і"
-" тек"
+"Список взірців, за яким слід встановлювати відповідність позначених файлів і "
+"тек"
 
 #. i18n: wildcard characters “*” and “?” should be considered as literals,
 #. *  and not be translated
@@ -154,10 +152,10 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to “*”."
 msgstr ""
-"Список рядків із універсальним замінником «*» або символом-замінником «?», за"
-" яким слід встановлювати відповідність назв позначених файлів або тек. Кожен"
-" з пунктів має відповідати принаймні одному взірцю, щоб було показано пункт"
-" дії або меню.\n"
+"Список рядків із універсальним замінником «*» або символом-замінником «?», "
+"за яким слід встановлювати відповідність назв позначених файлів або тек. "
+"Кожен з пунктів має відповідати принаймні одному взірцю, щоб було показано "
+"пункт дії або меню.\n"
 "Звичайно ж, усе це стосується ситуацій, коли щось позначено.\n"
 "Типовим є взірець «*»."
 
@@ -168,9 +166,9 @@ msgid ""
 "A pattern to be matched against basenames of selected file(s)/folder(s). May "
 "include wildcards (* or ?). You must set one option for each pattern you need"
 msgstr ""
-"Взірець, за яким встановлюється відповідність базових назв позначеним файлам"
-" або текам. Може включати символи-замінники (* або ?). Вам слід встановити"
-" один параметр для кожного потрібного вам взірця"
+"Взірець, за яким встановлюється відповідність базових назв позначеним файлам "
+"або текам. Може включати символи-замінники (* або ?). Вам слід встановити "
+"один параметр для кожного потрібного вам взірця"
 
 #. i18n: the "<EXPR>" is just an abbreviation for "an expression",
 #. *  so is tranlatable
@@ -200,8 +198,8 @@ msgid ""
 "List of patterns to be matched against the mimetypes of the selected file(s)/"
 "folder(s)"
 msgstr ""
-"Список взірців, за яким слід встановлювати відповідність типам MIME"
-" позначених файлів і тек"
+"Список взірців, за яким слід встановлювати відповідність типам MIME "
+"позначених файлів і тек"
 
 #. i18n: wildcard character “*” is taken literally, and should not be translated
 #: ../src/core/fma-icontext-factory.c:116
@@ -212,9 +210,9 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to “*/*”."
 msgstr ""
-"Список рядків із універсальним замінником «*», за яким слід встановлювати"
-" відповідність типів MIME позначених файлів або тек Кожен з пунктів має"
-" відповідати принаймні одному взірцю, щоб було показано пункт дії.\n"
+"Список рядків із універсальним замінником «*», за яким слід встановлювати "
+"відповідність типів MIME позначених файлів або тек Кожен з пунктів має "
+"відповідати принаймні одному взірцю, щоб було показано пункт дії.\n"
 "Звичайно ж, усе це стосується ситуацій, коли щось позначено.\n"
 "Типовим є взірець «*/*»."
 
@@ -225,9 +223,9 @@ msgid ""
 "include the asterisk wildcard “*”. You must set one option for each pattern "
 "you need"
 msgstr ""
-"Взірець, за яким встановлюється відповідність типів MIME позначеним файлам"
-" або текам. Може включати символ-замінник «*». Вам слід встановити один"
-" параметр для кожного потрібного вам взірця"
+"Взірець, за яким встановлюється відповідність типів MIME позначеним файлам "
+"або текам. Може включати символ-замінник «*». Вам слід встановити один "
+"параметр для кожного потрібного вам взірця"
 
 #: ../src/core/fma-icontext-factory.c:179
 msgid "Whether the profile applies to files (deprecated option, see mimetype)"
@@ -290,8 +288,8 @@ msgstr ""
 msgid ""
 "List of schemes to be matched against those of selected file(s)/folder(s)"
 msgstr ""
-"Список схем, за яким встановлюватиметься відповідність позначених файлів або"
-" тек"
+"Список схем, за яким встановлюватиметься відповідність позначених файлів або "
+"тек"
 
 #. too long string for iso c: 510 (max=509)
 #. i18n: schemes (sftp, ssh, ftp, file, etc.) are standard keywords which define
@@ -434,7 +432,7 @@ msgstr ""
 
 #: ../src/core/fma-icontext-factory.c:439
 msgid "Show if registered"
-msgstr ""
+msgstr "Показати, якщо зареєстровано"
 
 #. i18n: ShowIfRegistered is a keyword of the specification, it is not translatable
 #: ../src/core/fma-icontext-factory.c:441
@@ -449,7 +447,7 @@ msgstr ""
 
 #: ../src/core/fma-icontext-factory.c:458
 msgid "The name of a service which must be registered on session DBus"
-msgstr ""
+msgstr "Назва служби, яку має бути зареєстровано у DBus сеансу"
 
 #: ../src/core/fma-icontext-factory.c:459
 #: ../src/core/fma-icontext-factory.c:512
@@ -474,7 +472,7 @@ msgstr ""
 #. i18n: “true” is to be taken as a literal, must not be translated
 #: ../src/core/fma-icontext-factory.c:485
 msgid "The path to a command which will display the “true” string"
-msgstr ""
+msgstr "Шлях до команди, яка показуватиме рядок «true»"
 
 #: ../src/core/fma-icontext-factory.c:492
 msgid "Show if running"
@@ -490,6 +488,12 @@ msgid ""
 "runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Назва процесу.\n"
+"Запис буде кандидатом, якщо у динамічному режимі буде виявлено назву процесу"
+" у пам'яті.\n"
+"Параметри може бути вказано у значенні «ShowIfRunning». Заміна"
+" відбуватиметься під час виконання.\n"
+"Типово увімкнено."
 
 #: ../src/core/fma-icontext-factory.c:511
 msgid "The name of a binary which must be running"
@@ -526,6 +530,8 @@ msgstr ""
 msgid ""
 "Item was renumbered because the caller did not provide any check function."
 msgstr ""
+"Запис було перенумеровано, оскільки функцією виклику не надано функції"
+" перевірки."
 
 #: ../src/core/fma-iimporter.c:254
 msgid ""
@@ -596,8 +602,8 @@ msgstr ""
 #, c-format
 msgid "%s is not loadable (empty or too big or not a regular file)"
 msgstr ""
-"%s є непридатним до завантаження (порожнім, надто великим або не є звичайним"
-" файлом)"
+"%s є непридатним до завантаження (порожнім, надто великим або не є звичайним "
+"файлом)"
 
 #. l10n: “ImporterAskDialog” is the dialog name: do not translate
 #: ../src/core/fma-importer-ask.c:270
@@ -3007,8 +3013,8 @@ msgstr "<b>Режим імпортування</b>"
 #: ../src/ui/fma-preferences.ui.h:46
 msgid "This tab lets you decide on the default behavior of import operations."
 msgstr ""
-"За допомогою цієї вкладки ви можете визначити типову поведінку дій з"
-" імпортування."
+"За допомогою цієї вкладки ви можете визначити типову поведінку дій з "
+"імпортування."
 
 #: ../src/ui/fma-preferences.ui.h:47
 msgid "_Import"
@@ -3025,8 +3031,8 @@ msgstr "<b>Формат експортування</b>"
 #: ../src/ui/fma-preferences.ui.h:50
 msgid "This tab lets you decide on the default behavior of export operations."
 msgstr ""
-"За допомогою цієї вкладки ви можете визначити типову поведінку дій з"
-" експортування."
+"За допомогою цієї вкладки ви можете визначити типову поведінку дій з "
+"експортування."
 
 #: ../src/ui/fma-preferences.ui.h:51
 msgid "_Export"
@@ -3384,8 +3390,8 @@ msgid ""
 "A submenu which embeds the currently available FileManager-Actions actions "
 "and menus"
 msgstr ""
-"Підменю, до якого вбудовуються поточні доступні пункти дій та меню"
-" FileManager-Actions"
+"Підменю, до якого вбудовуються поточні доступні пункти дій та меню "
+"FileManager-Actions"
 
 #: ../src/plugin-menu/fma-menu-plugin.c:1041
 msgid "About FileManager-Actions"
@@ -3418,9 +3424,8 @@ msgid ""
 "Bug reports are welcomed at https://gitlab.gnome.org/GNOME/filemanager-"
 "actions/issues/\n"
 msgstr ""
-"Вади слід надсилати за допомогою сторінки"
-" https://gitlab.gnome.org/GNOME/filemanager-"
-"actions/issues/\n"
+"Вади слід надсилати за допомогою сторінки https://gitlab.gnome.org/GNOME/"
+"filemanager-actions/issues/\n"
 
 #: ../src/test/test-reader.c:129 ../src/utils/fma-delete-xmltree.c:183
 #: ../src/utils/fma-new.c:389 ../src/utils/fma-print.c:183
@@ -3450,8 +3455,8 @@ msgstr "Помилка: адреса є обов'язковою.\n"
 #, c-format
 msgid "Try %s --help for usage.\n"
 msgstr ""
-"Спробуйте команду %s --help, щоб дізнатися більше про користування"
-" програмою.\n"
+"Спробуйте команду %s --help, щоб дізнатися більше про користування "
+"програмою.\n"
 
 #: ../src/utils/fma-delete-xmltree.c:68
 msgid "The XPath to the tree to be deleted"
