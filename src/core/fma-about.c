@@ -109,7 +109,7 @@ fma_about_display( GtkWindow *toplevel )
 			"program-name", application_name,
 			"translator-credits", _( "The GNOME Translation Project <gnome-i18n@gnome.org>" ),
 			"version", PACKAGE_VERSION,
-			"website", "http://www.filemanager-actions.org",
+			"website", NULL,
 			"wrap-license", TRUE,
 			NULL );
 

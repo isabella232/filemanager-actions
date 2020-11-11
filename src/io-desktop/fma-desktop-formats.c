@@ -49,8 +49,7 @@ typedef struct {
 
 static sExportFormat st_desktop_formats[] = {
 
-	/* DESKTOP_V1: the initial desktop format as described in
-	 * http://www.filemanager-actions.org/?q=node/377
+	/* DESKTOP_V1: the initial desktop format
 	 */
 	{ FMA_DESKTOP_FORMAT_V1,
 			N_( "Export as a ._desktop file" ),

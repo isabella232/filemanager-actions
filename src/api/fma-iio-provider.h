@@ -46,8 +46,7 @@
  *
  * &prodname; is bundled with several I/O providers.
  * Since version 3, the <literal>io-desktop</literal> I/O provider, which
- * implements the
- * <ulink role="online-location" url="http://www.filemanager-actions.org/?q=node/377/">DES-EMA</ulink>
+ * implements the DES-EMA
  * specification, is the preferred way of storing (and sharing) items.
  *
  * The #FMAIIOProvider interface provides three types of services:
