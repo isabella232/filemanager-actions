@@ -2109,7 +2109,7 @@ msgstr "<b>%p</b>"
 
 #: ../src/ui/fma-legend.ui.h:43
 msgid ": port number of the (first) selected URI."
-msgstr ": Nombre del port del (primer) URI seleccionat."
+msgstr ": número del port del (primer) URI seleccionat."
 
 #: ../src/ui/fma-legend.ui.h:45
 #, no-c-format
@@ -2924,7 +2924,7 @@ msgstr "<b>Entorn d'escriptori</b>"
 
 #: ../src/ui/fma-main-window.ui.h:134
 msgid "Appears if the file is e_xecutable :"
-msgstr "Apareix si el fitxer es e_xecutable:"
+msgstr "Apareix si el fitxer és e_xecutable:"
 
 #: ../src/ui/fma-main-window.ui.h:135
 msgid "Appears if the name is _registered on D-Bus :"
@@ -4274,7 +4274,7 @@ msgstr "El valor que s'estableix"
 
 #: ../src/utils/fma-set-conf.c:75
 msgid "Output the version number and exit gracefully"
-msgstr "Sortida del nombre de versió i sortir amb èxit"
+msgstr "Sortida del número de versió i sortir amb èxit"
 
 #: ../src/utils/fma-set-conf.c:136
 #, c-format
