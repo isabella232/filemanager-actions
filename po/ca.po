@@ -92,7 +92,7 @@ msgstr ""
 #: ../src/core/fma-about.c:101
 msgid "A graphical interface to create and edit your file-manager actions."
 msgstr ""
-"Una interfície gràfica per crear i editar les seves accions a file-manager."
+"Una interfície gràfica per a crear i editar les seves accions a file-manager."
 
 #: ../src/core/fma-about.c:110
 msgid "The GNOME Translation Project <gnome-i18n@gnome.org>"
@@ -169,13 +169,14 @@ msgid ""
 "A pattern to be matched against basenames of selected file(s)/folder(s). May "
 "include wildcards (* or ?). You must set one option for each pattern you need"
 msgstr ""
-"Un patró per fer coincidir noms base seleccionats de fitxer(s)/carpeta(es). "
-"Pot incloure comodins (* o ?). S'ha d'establir una opció per a cada patró "
-"que necessiti"
+"Un patró per a fer coincidir noms base seleccionats de fitxer(s)/"
+"carpeta(es). Pot incloure comodins (* o ?). S'ha d'establir una opció per a "
+"cada patró que necessiti"
 
 #. i18n: the "<EXPR>" is just an abbreviation for "an expression",
 #. *  so is tranlatable
-#. i18n: "<EXPR>" is just an abbreviation for "an expression", so is tranlatable
+#. i18n: "<EXPR>" is just an abbreviation for "an expression", so is
+#. tranlatable
 #: ../src/core/fma-icontext-factory.c:80 ../src/core/fma-icontext-factory.c:139
 #: ../src/core/fma-icontext-factory.c:358
 msgid "<EXPR>"
@@ -185,7 +186,8 @@ msgstr "<EXPRESSIÓ>"
 msgid "Whether the specified basenames are case sensitive (default)"
 msgstr "Si els noms base especificats són case-sensitive (per defecte)"
 
-#. i18n: “true” and “false” values are taken literally, and should not be translated
+#. i18n: “true” and “false” values are taken literally, and should not be
+#. translated
 #: ../src/core/fma-icontext-factory.c:88
 msgid ""
 "Must be set to “true” if the filename patterns are case sensitive, to "
@@ -211,7 +213,8 @@ msgstr ""
 "Llista dels patrons que es compara amb els tipus MIME del fitxer(s)/"
 "carpeta(es) seleccionats"
 
-#. i18n: wildcard character “*” is taken literally, and should not be translated
+#. i18n: wildcard character “*” is taken literally, and should not be
+#. translated
 #: ../src/core/fma-icontext-factory.c:116
 msgid ""
 "A list of strings with joker “*” to be matched against the mimetypes of the "
@@ -220,14 +223,15 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to “*/*”."
 msgstr ""
-"Una llista de cadenes amb comodí «*» per fer-les en coincidir amb els tipus "
-"MIME del fitxer(s)/carpeta(es) seleccionats. Cada un dels elements "
+"Una llista de cadenes amb comodí «*» per a fer-les en coincidir amb els "
+"tipus MIME del fitxer(s)/carpeta(es) seleccionats. Cada un dels elements "
 "seleccionats ha de coincidir amb almenys un dels patrons dels tipus MIME per "
 "tal que l'acció aparegui.\n"
 "Òbviament, això només s'aplica quan hi ha una selecció.\n"
 "Per defecte a «*/*»."
 
-#. i18n: wildcard character “*” is taken literally, and should not be translated
+#. i18n: wildcard character “*” is taken literally, and should not be
+#. translated
 #: ../src/core/fma-icontext-factory.c:135
 msgid ""
 "A pattern to be matched against mimetypes of selected file(s)/folder(s). May "
@@ -243,7 +247,8 @@ msgid "Whether the profile applies to files (deprecated option, see mimetype)"
 msgstr ""
 "Si el perfil s'aplica als fitxers (opció obsoleta, vegeu el tipus MIME)"
 
-#. i18n: “true” and “false” values are taken literally, and should not be translated
+#. i18n: “true” and “false” values are taken literally, and should not be
+#. translated
 #: ../src/core/fma-icontext-factory.c:181
 msgid ""
 "Set to “true” if the selection can have files, to “false” otherwise.\n"
@@ -278,7 +283,8 @@ msgid ""
 msgstr ""
 "Si el perfil s'aplica a les carpetes (opció obsoleta, vegeu el tipus MIME)"
 
-#. i18n: “true” and “false” values are taken literally, and should not be translated
+#. i18n: “true” and “false” values are taken literally, and should not be
+#. translated
 #: ../src/core/fma-icontext-factory.c:212
 msgid ""
 "Set to “true” if the selection can have folders, to “false” otherwise.\n"
@@ -315,7 +321,8 @@ msgstr ""
 "Si la selecció pot ser múltiple (opció obsoleta, vegeu el recompte de "
 "selecció)"
 
-#. i18n: “true” and “false” values are taken literally, and should not be translated
+#. i18n: “true” and “false” values are taken literally, and should not be
+#. translated
 #: ../src/core/fma-icontext-factory.c:246
 msgid ""
 "If you need more than one files or folders to be selected, set this key to "
@@ -335,7 +342,8 @@ msgstr ""
 "Llista d'esquemes que es compara amb el fitxer(s)/carpeta(es) seleccionats"
 
 #. too long string for iso c: 510 (max=509)
-#. i18n: schemes (sftp, ssh, ftp, file, etc.) are standard keywords which define
+#. i18n: schemes (sftp, ssh, ftp, file, etc.) are standard keywords which
+#. define
 #. *  the access protocol to an object, they should not be translated
 #: ../src/core/fma-icontext-factory.c:274
 msgid ""
@@ -357,9 +365,9 @@ msgid ""
 "Defaults to “file”."
 msgstr ""
 "Defineix la llista d'esquemes vàlids que s'ha de comparar amb els elements "
-"seleccionats. L'esquema és el protocol utilitzat per accedir als fitxers. La "
-"paraula clau per al seu ús és la que s'utilitza en l'URI per l'administrador "
-"d'arxius.\n"
+"seleccionats. L'esquema és el protocol utilitzat per a accedir als fitxers. "
+"La paraula clau per al seu ús és la que s'utilitza en l'URI per "
+"l'administrador d'arxius.\n"
 "Exemples vàlids d'URI inclouen:\n"
 "• fitxer:///tmp/foo.txt\n"
 "• sftp:///root@test.example.net/tmp/foo.txt\n"
@@ -407,7 +415,7 @@ msgid ""
 " All folders “under” the specified path are considered valid.\n"
 "Defaults to “/”."
 msgstr ""
-"Defineix la llista de rutes vàlides per comparar amb la carpeta actual.\n"
+"Defineix la llista de rutes vàlides per a comparar amb la carpeta actual.\n"
 " Totes les carpetes «sota» el camí especificat es consideren vàlides.\n"
 "Per defecte a «/»."
 
@@ -419,7 +427,8 @@ msgstr ""
 "El camí d'un directori (pare) pel qual es mostra l'opció. S'ha d'establir "
 "una opció per a cada carpeta que necessiti"
 
-#. i18n: "<PATH>" is just an abbreviation for "a folder path", so is tranlatable
+#. i18n: "<PATH>" is just an abbreviation for "a folder path", so is
+#. tranlatable
 #. i18n: "<PATH>" is the path to a binary, so may be tranlatable
 #: ../src/core/fma-icontext-factory.c:332
 #: ../src/core/fma-icontext-factory.c:433
@@ -466,7 +475,8 @@ msgstr ""
 "El nom d'un únic entorn d'escriptori on s'ha de mostrar l'element. S'ha "
 "d'establir una opció per a cada entorn que desitja"
 
-#. i18n: "<DESKTOP>" is just a placeholder for "a desktop name", so is tranlatable
+#. i18n: "<DESKTOP>" is just a placeholder for "a desktop name", so is
+#. tranlatable
 #: ../src/core/fma-icontext-factory.c:382
 #: ../src/core/fma-icontext-factory.c:406
 msgid "<DESKTOP>"
@@ -515,7 +525,8 @@ msgstr "el camí d'accés a un fitxer executable s'ha de comprovar"
 msgid "Show if registered"
 msgstr "Mostra si estan registrats"
 
-#. i18n: ShowIfRegistered is a keyword of the specification, it is not translatable
+#. i18n: ShowIfRegistered is a keyword of the specification, it is not
+#. translatable
 #: ../src/core/fma-icontext-factory.c:441
 msgid ""
 "The well-known name of a DBus service.\n"
@@ -571,7 +582,8 @@ msgstr "El camí a una ordre que mostra la cadena «veritat»"
 msgid "Show if running"
 msgstr "Mostra si s'està executant"
 
-#. i18n: ShowIfRunning is a keyword of the specification, it is not translatable
+#. i18n: ShowIfRunning is a keyword of the specification, it is not
+#. translatable
 #: ../src/core/fma-icontext-factory.c:494
 msgid ""
 "The name of a process.\n"
@@ -596,7 +608,8 @@ msgstr "El nom d'un binari que s'està executant"
 msgid "Capabilities"
 msgstr "Capacitats"
 
-#. i18n: “Owner”, “Readable”, “Writable”, “Executable” and “Local” are all keywords
+#. i18n: “Owner”, “Readable”, “Writable”, “Executable” and “Local” are all
+#. keywords
 #. *  of the specification; they are not translatable
 #: ../src/core/fma-icontext-factory.c:521
 msgid ""
@@ -613,7 +626,7 @@ msgid ""
 "Defaults to empty list."
 msgstr ""
 "Una llista de les capacitats de cada element de la selecció que ha de "
-"satisfer a l'element per ser candidat.\n"
+"satisfer a l'element per a ser candidat.\n"
 "Poden ser negades les capacitats.\n"
 "S'han d'elegir les capacitats següents entre els predefinits:\n"
 "• «Propietari»: l'usuari actual és propietari dels elements seleccionats\n"
@@ -1135,8 +1148,8 @@ msgid ""
 "The path of the command to be executed when the user select the menu item in "
 "the file manager context menu or in the toolbar."
 msgstr ""
-"El camí de l'ordre a executar quan l'usuari seleccioni l'element del menú "
-"al file-manager o en la barra d'eines del menú del context."
+"El camí de l'ordre a executar quan l'usuari seleccioni l'element del menú al "
+"file-manager o en la barra d'eines del menú del context."
 
 #: ../src/core/fma-object-profile-factory.c:127
 msgid "Parameters of the command"
@@ -1264,7 +1277,8 @@ msgstr ""
 msgid "Execution mode"
 msgstr "Mode d'execució"
 
-#. i18n: “Normal”, “Terminal”, “Embedded” and “DisplayOutput” are non-translatable keywords
+#. i18n: “Normal”, “Terminal”, “Embedded” and “DisplayOutput” are non-
+#. translatable keywords
 #: ../src/core/fma-object-profile-factory.c:213
 msgid ""
 "Execution mode of the program.\n"
@@ -1399,7 +1413,7 @@ msgid ""
 "• or by copying it into a XDG_DATA_DIRS/file-manager/actions directory."
 msgstr ""
 "Aquest format s'ha introduït amb la sèrie v 3.0, i ha de ser el seu nou "
-"format preferit per exportar elements.\n"
+"format preferit per a exportar elements.\n"
 "Li permet compartir fàcilment les vostres accions amb tothom, incloent als "
 "usuaris d'altres entorns d'escriptori, sempre que l'aplicació implementi "
 "l'especificació DES-EMA que descriu aquest format.\n"
@@ -1548,8 +1562,8 @@ msgstr "Advertiment amb ESC"
 msgid ""
 "Should the user be asked to confirm when exiting the assistant via Escape ?"
 msgstr ""
-"S'ha de demanar a l'usuari que confirmi al sortir de l'assistent a través d'"
-"ESC?"
+"S'ha de demanar a l'usuari que confirmi al sortir de l'assistent a través "
+"d'ESC?"
 
 #: ../src/ui/base-assistant.c:450
 msgid "Are you sure you want to quit this assistant ?"
@@ -1673,7 +1687,7 @@ msgstr "Eina de configuració del FileManager-Actions"
 #: ../src/ui/fma-application.c:62
 msgid "A user interface to edit your own contextual actions"
 msgstr ""
-"Una interfície d'usuari per editar les seves pròpies accions contextuals"
+"Una interfície d'usuari per a editar les seves pròpies accions contextuals"
 
 #: ../src/ui/fma-application.c:70
 msgid "Set it to run multiple instances of the program [unique]"
@@ -1801,7 +1815,8 @@ msgstr "L'exportació es realitza"
 msgid "Import OK"
 msgstr "Importació realitzada amb èxit"
 
-#. i18n: this is the globally unique identifier and the label of the newly imported action
+#. i18n: this is the globally unique identifier and the label of the newly
+#. imported action
 #: ../src/ui/fma-assistant-import.c:766
 #, c-format
 msgid "Id.: %s\t%s"
@@ -1866,7 +1881,7 @@ msgstr "El menú «%s» està a punt de ser exportat."
 
 #: ../src/ui/fma-export-ask.ui.h:1
 msgid "Which format should I choose to export it ?"
-msgstr "Quin format hauria de triar per exportar?"
+msgstr "Quin format hauria de triar per a exportar?"
 
 #: ../src/ui/fma-export-ask.ui.h:2
 msgid " About to export item(s) "
@@ -1930,7 +1945,6 @@ msgstr "Filtre de carpeta"
 
 #. i18n: title of the FileChoose dialog when selecting an URI which
 #. * will be compare to Nautilus “current_folder”
-#.
 #: ../src/ui/fma-ifolders-tab.c:244
 msgid "Select a folder"
 msgstr "Selecciona una carpeta"
@@ -2369,8 +2383,8 @@ msgstr "_Indicador de funció:"
 #: ../src/ui/fma-main-window.ui.h:20
 msgid "The tooltip displayed in the file manager user interface."
 msgstr ""
-"L'indicador de funció que apareix a la interfície d'usuari de l'administrador de "
-"fitxers."
+"L'indicador de funció que apareix a la interfície d'usuari de "
+"l'administrador de fitxers."
 
 #: ../src/ui/fma-main-window.ui.h:21
 msgid "_Icon :"
@@ -2576,7 +2590,7 @@ msgid ""
 msgstr ""
 "Introduïu aquí l'ordre d'usuari.\n"
 "L'usuari pot definir la seva contrasenya o el seu nom d'inici de sessió.\n"
-"Deixeu el camp buit per executar l'ordre com a usuari actual."
+"Deixeu el camp buit per a executar l'ordre com a usuari actual."
 
 #: ../src/ui/fma-main-window.ui.h:70
 msgid "<b> Execute as user </b>"
@@ -2748,7 +2762,7 @@ msgstr "Feu clic per a afegir un nou filtre de carpeta."
 #: ../src/ui/fma-main-window.ui.h:101
 msgid "Click to browse the filesystem in order to select a new folder filter."
 msgstr ""
-"Feu clic per navegar pel sistema de fitxers per tal de seleccionar un nou "
+"Feu clic per a navegar pel sistema de fitxers per tal de seleccionar un nou "
 "filtre de carpeta."
 
 #: ../src/ui/fma-main-window.ui.h:102
@@ -2811,7 +2825,7 @@ msgstr "Per de_fecte..."
 #: ../src/ui/fma-main-window.ui.h:112
 msgid "Click to select a new scheme filter among default schemes."
 msgstr ""
-"Feu clic per seleccionar un nou filtre d'esquema dels esquemes "
+"Feu clic per a seleccionar un nou filtre d'esquema dels esquemes "
 "predeterminats."
 
 #: ../src/ui/fma-main-window.ui.h:113
@@ -2975,7 +2989,7 @@ msgstr ""
 "Aquesta és una condició avançada basada en un resultat de temps d'execució.\n"
 "Introduïu aquí una ordre que sigui capaç de mostrar l'exacta \"veritat\" "
 "cadena a la sortida estàndard.\n"
-"Això es pot utilitzar per exemple per provar una condició complexa."
+"Això es pot utilitzar per exemple per a provar una condició complexa."
 
 #: ../src/ui/fma-main-window.ui.h:146
 msgid "Brow_se…"
@@ -2993,7 +3007,7 @@ msgstr ""
 "funcionament.\n"
 "Recordeu que només el nom base del binari està marcada, no el seu nomdir ni "
 "els seus paràmetres.\n"
-"Això es pot utilitzar per exemple per provar la presència d'un dimoni de "
+"Això es pot utilitzar per exemple per a provar la presència d'un dimoni de "
 "requisit previ."
 
 #: ../src/ui/fma-main-window.ui.h:150
@@ -3024,7 +3038,7 @@ msgid ""
 "If unchecked, then the item will never appear in the file manager context "
 "menus or toolbar."
 msgstr ""
-"Marqueu la casella per activar aquest element.\n"
+"Marqueu la casella per a activar aquest element.\n"
 "Si no es controla, a continuació, l'element mai apareixerà en els menús de "
 "context del gestor de fitxers o barra d'eines."
 
@@ -3038,7 +3052,7 @@ msgid ""
 "search tool) to describe your item."
 msgstr ""
 "Introduïu un text lliure que pot ser utilitzat (per exemple, en un servei "
-"web o en una eina de recerca) per descriure el seu element."
+"web o en una eina de recerca) per a descriure el seu element."
 
 #: ../src/ui/fma-main-window.ui.h:158
 msgid "Suggested _shortcut :"
@@ -3104,7 +3118,8 @@ msgstr "Ha de coincidir amb un"
 msgid "Must match all of"
 msgstr "Ha de coincidir amb tots"
 
-#. i18n: label of the header of a column which let the user select a negative filter
+#. i18n: label of the header of a column which let the user select a negative
+#. filter
 #: ../src/ui/fma-match-list.c:233
 msgid "Must not match any of"
 msgstr "No ha de coincidir amb qualsevol de"
@@ -3545,8 +3560,8 @@ msgid ""
 "What to do when an item, action or menu, selected to be imported, has the "
 "same identifier that a currently existing one ?"
 msgstr ""
-"Què fer quan un element, acció o menú, seleccionat per a ser importat, té "
-"el mateix identificador que un existent en l'actualitat?"
+"Què fer quan un element, acció o menú, seleccionat per a ser importat, té el "
+"mateix identificador que un existent en l'actualitat?"
 
 #: ../src/ui/fma-preferences.ui.h:45
 msgid "<b>Import mode</b>"
@@ -3582,7 +3597,7 @@ msgstr "_Exporta"
 
 #: ../src/ui/fma-preferences.ui.h:52
 msgid "Click to add a new default scheme."
-msgstr "Feu clic per afegir un nou esquema predeterminat."
+msgstr "Feu clic per a afegir un nou esquema predeterminat."
 
 #: ../src/ui/fma-preferences.ui.h:53
 msgid "Click to remove the selected default scheme."
@@ -3684,7 +3699,8 @@ msgstr "Proveïdor I/O"
 msgid "no name"
 msgstr "Sense nom"
 
-#. i18n: name displayed when the corresponding I/O provider is unavailable at runtime
+#. i18n: name displayed when the corresponding I/O provider is unavailable at
+#. runtime
 #: ../src/ui/fma-providers-list.c:265
 msgid "unavailable I/O provider"
 msgstr "Proveïdor I/O no disponible"
@@ -4126,7 +4142,7 @@ msgstr ""
 "L'acció creada per defecte que s'escriu en la sortida estàndard.\n"
 "També es pot escriure en una carpeta de sortida, en un fitxer més tard "
 "adequat per a una importació en l'eina de configuració d'usuari.\n"
-"O pot optar per escriure directament l'acció com un fitxer .desktop en la "
+"O pot optar per a escriure directament l'acció com un fitxer .desktop en la "
 "seva configuració FileManager-Actions."
 
 #: ../src/utils/fma-new.c:383
@@ -4151,7 +4167,8 @@ msgstr "Imprimeix un menú o una acció a la sortida estàndard."
 msgid "The identifier of the menu or the action to be printed"
 msgstr "L'identificador del menú o l'acció que es vol imprimir"
 
-#. i18n: “Desktop1” here is the internal identifier of an export format; it is not translatable
+#. i18n: “Desktop1” here is the internal identifier of an export format; it is
+#. not translatable
 #: ../src/utils/fma-print.c:63
 msgid "An export format [Desktop1]"
 msgstr "Un format d'exportació [Escriptori1]"
@@ -4289,7 +4306,7 @@ msgstr "Error: la clau és obligatòria.\n"
 #: ../src/utils/fma-set-conf.c:146
 #, c-format
 msgid "Error: a type is mandatory for setting/updating a value.\n"
-msgstr "Error: un tipus és obligatori per ajustar/actualitzar un valor.\n"
+msgstr "Error: un tipus és obligatori per a ajustar/actualitzar un valor.\n"
 
 #. i18n: “str”, “int” and “bool” are literal values: do not translate
 #: ../src/utils/fma-set-conf.c:157
