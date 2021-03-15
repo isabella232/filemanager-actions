@@ -32,7 +32,7 @@ msgid ""
 "You will be asked for the format to choose each time an item is about to be "
 "exported."
 msgstr ""
-" Es demana el format per escollir cada vegada que un article estigui a punt "
+"Es demana el format per a escollir cada vegada que un article estigui a punt "
 "de ser exportat."
 
 #. i18n: FMAIExporter is an interface name, do not even try to translate
@@ -1067,7 +1067,7 @@ msgstr ""
 "Un accés directe suggerit per l'acció o el menú.\n"
 "Tingueu en compte que això podria ser només un suggeriment, ja que l'accés "
 "directe pot estar reservat per a un altre ús. L'aplicació no hauria "
-"d'anul·lar un accés directe existent per definir-ne aquest.\n"
+"d'anul·lar un accés directe existent per a definir-ne aquest.\n"
 "El format es pot veure com «<Control>a» o «<Maj><Alt>F1».\n"
 "Per defecte buit."
 
@@ -1772,7 +1772,7 @@ msgid ""
 msgstr ""
 "Seleccioneu una o més accions per a ser exportades.\n"
 "\n"
-"Podeu utilitzar les tecles Ctrl i Maj per estendre la selecció."
+"Podeu utilitzar les tecles Ctrl i Maj per a estendre la selecció."
 
 #: ../src/ui/fma-assistant-export.ui.h:7
 msgid "Selecting the exported actions"
@@ -2648,7 +2648,7 @@ msgstr "Distingeix entre majús_cules i minúscules"
 #: ../src/ui/fma-main-window.ui.h:80
 msgid "Click to define the above basename filters as case sensitive."
 msgstr ""
-"Feu clic per definir els filtres del nom base anteriors com majúscules i "
+"Feu clic per a definir els filtres del nom base anteriors com majúscules i "
 "minúscules."
 
 #: ../src/ui/fma-main-window.ui.h:81
